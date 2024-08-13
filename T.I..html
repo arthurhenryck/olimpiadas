@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Olimpíadas</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: url('../Downloads/gratis-png-juegos-olimpicos-2014-olimpiadas-de-invierno-1972-olimpiadas-de-verano-2012-olimpiadas-de-verano-sochi-olimpica-fotor-bg-remover-20240812142428.png') repeat;
+        }
+
+        #TopBox {
+            width: 100%;
+            height: 1000px;
+            background: url('../Documents/parisolimpiadas.webp') no-repeat;
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #BottomBox {
+            width: 100%;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.99);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        #logo {
+            width: 500px;
+            height: 500px;
+        }
+
+        .BND {
+            width: 32px;
+            height: 22px;
+        }
+
+        #topicos {
+            background-color: greenyellow;
+        }
+
+        .cinza {
+            background-color: rgb(230, 229, 229);
+        }
+
+        .ok {
+            width: 223px;
+            height: 370px;
+        }
+
+        .noticia {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .noticia img {
+            margin-right: 20px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="TopBox">
+        <img src="../Documents/ImgOlimpiadas.svg" alt="Logo" id="logo">
+    </div>
+
+    <div id="BottomBox">
+        <table>
+            <thead>
+                <tr id="topicos">
+                    <th>Posição</th>
+                    <th>Paises</th>
+                    <th>Ouro</th>
+                    <th>Prata</th>
+                    <th>Bronze</th>
+                    <th>Gerais</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="cinza">
+                    <td>1°</td>
+                    <td><img src="https://gstatic.olympics.com/s1/t_original/static/noc/oly/3x2/180x120/USA.png" alt="USA" class="BND"></td>
+                    <td>40</td>
+                    <td>44</td>
+                    <td>42</td>
+                    <td>126</td>
+                </tr>
+                <tr>
+                    <td>2°</td>
+                    <td><img src="https://gstatic.olympics.com/s1/t_original/static/noc/oly/3x2/180x120/CHN.png" alt="China" class="BND"></td>
+                    <td>40</td>
+                    <td>27</td>
+                    <td>24</td>
+                    <td>91</td>
+                </tr>
+                <tr class="cinza">
+                    <td>3°</td>
+                    <td><img src="https://gstatic.olympics.com/s1/t_original/static/noc/oly/3x2/180x120/JPN.png" alt="Japan" class="BND"></td>
+                    <td>20</td>
+                    <td>12</td>
+                    <td>13</td>
+                    <td>45</td>
+                </tr>
+                <tr>
+                    <td>...</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr class="cinza">
+                    <td>20°</td>
+                    <td><img src="https://gstatic.olympics.com/s1/t_original/static/noc/oly/3x2/180x120/BRA.png" alt="Brazil" class="BND"></td>
+                    <td>3</td>
+                    <td>7</td>
+                    <td>10</td>
+                    <td>20</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="noticia">
+            <img src="https://111rz7rfsbudm.cdn.shift8web.com/wp-content/uploads/2023/07/rebeca_menor.jpg" alt="Rebeca Andrade" class="ok">
+            <p>
+                Rebeca Andrade Brilha em Competição Internacional e Conquista Ouro em Novos Exercícios
+                <br>
+                A ginasta brasileira Rebeca Andrade alcançou um feito impressionante na competição internacional <br> de ginástica
+                realizada em Paris, ao conquistar a medalha de ouro com uma performance que <br> encantou o público e os juízes. O
+                evento, realizado no prestigiado Palais Omnisports de Paris-Bercy, <br> foi um verdadeiro desfile de talentos e
+                inovações, e Andrade se destacou de maneira notável, <br> reafirmando seu status como uma das maiores estrelas da
+                ginástica mundial...
+            </p>
+        </div>
+    </div>
+</body>
+</html>
